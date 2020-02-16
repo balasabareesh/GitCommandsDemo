@@ -67,6 +67,7 @@ public class LoginSteps {
 	public void click_on_save_button() {
 		
 		System.out.println("Clicked on save button");
+		System.out.println("Clicked on save button");
 
 	}
 
