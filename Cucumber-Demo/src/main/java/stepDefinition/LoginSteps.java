@@ -65,6 +65,8 @@ public class LoginSteps {
 
 	@Then("^Click on save button$")
 	public void click_on_save_button() {
+		
+		System.out.println("Clicked on save button");
 
 	}
 
