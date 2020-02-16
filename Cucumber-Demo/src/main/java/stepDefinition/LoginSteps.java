@@ -52,7 +52,8 @@ public class LoginSteps {
 
 	@Then("^Move to Contacts and click on New contact$")
 	public void move_to_Contacts_and_click_on_New_contact() {
-
+		driver.findElement(By.xpath("//button[@id='newContact']")).click();
+		System.out.println("Push to sub Branch");
 	}
 
 	@Then("^Enter Firstname, lastname and Designation$")
