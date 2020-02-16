@@ -58,6 +58,8 @@ public class LoginSteps {
 
 	@Then("^Enter Firstname, lastname and Designation$")
 	public void enter_Firstname_lastname_and_Designation() {
+		driver.findElement(By.xpath("//button[@id='newContact']")).click();
+		System.out.println("Push to sub Branch");
 
 	}
 
