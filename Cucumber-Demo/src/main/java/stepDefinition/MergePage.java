@@ -11,7 +11,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import junit.framework.Assert;
 
-public class HomePage {
+public class MergePage {
 	
 	WebDriver driver;
 	
@@ -58,14 +58,19 @@ public class HomePage {
 
 	@Then("^Enter Firstname, lastname and Designation$")
 	public void enter_Firstname_lastname_and_Designation() {
+		driver.findElement(By.xpath("//button[@id='newContact']")).click();
+		System.out.println("Push to sub Branch");
 
 	}
 
 	@Then("^Click on save button$")
 	public void click_on_save_button() {
 		
-		//Test Merge
-		System.out.println("Merge command");
+		System.out.println("Clicked on save button");
+		System.out.println("Clicked on save button");
+		System.out.println("Clicked on save button");
+		//rebase
+		System.out.println("Clicked on save button");
 
 	}
 
