@@ -66,6 +66,9 @@ public class HomePage {
 		
 		//Test Merge
 		System.out.println("Merge command");
+		
+		//revert command
+		System.out.println("revert command");
 
 	}
 
